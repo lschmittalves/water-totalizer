@@ -107,7 +107,7 @@ namespace WaterTotalizer
                 }
             }
 
-            return deltaX * totalizer;
+            return (deltaX/2) * totalizer;
         }
 
         /// <summary>
